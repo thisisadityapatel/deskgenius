@@ -1,5 +1,5 @@
 import React from 'react'
-import Design2 from './design2'
+import Design2 from '../components/design2'
 import { useState, useEffect } from 'react'
 import deskmodels from '_data/deskcoord.json';
 import DeskMenu from '@/components/DeskMenu';
