@@ -8,7 +8,7 @@ import AssembleHeader from '@/components/AssembleHeader';
 
 const assemble = () => {
   const [maintable, setMainTable] = useState("desk1");
-  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}]);
+  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor1", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}]);
   const [cameraposition, setCamera] = useState([0, 2.9, 4.6]);
   const [tablebuffer, setTableBuffer] = useState(deskmodels[maintable].y_buffer);
   const [newOtherModels, setNewOtherModels] = useState([]);
