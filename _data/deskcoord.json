@@ -1,5 +1,5 @@
 {
-    "desk1": {"position": [0, 0.132, 0], "scale": 1, "location": "/desks/desk1.glb", "y_buffer": 0.132},
-    "desk2": {"position": [0, 0.77, 0.2], "scale": 1.5, "location": "/desks/desk2.glb", "y_buffer": 0.16},
-    "desk3": {"position": [0, 0, 0.2], "scale": 2, "location": "/desks/desk3.glb", "y_buffer": 0.06}
+    "desk1": {"position": [0, 0.132, 0], "scale": 1, "location": "/desks/desk1.glb", "y_buffer": 0.132, "title" : "Charcoal Desk", "description" : "63x31 1/2\""},
+    "desk2": {"position": [0, 0.77, 0.2], "scale": 1.5, "location": "/desks/desk2.glb", "y_buffer": 0.16, "title" : "Ikea Bekant", "description" : "47 1/4x31 1/2\""},
+    "desk3": {"position": [0, 0, 0.2], "scale": 2, "location": "/desks/desk3.glb", "y_buffer": 0.06, "title" : "Standing Desk", "description" : "63x31 1/2\""}
 }
