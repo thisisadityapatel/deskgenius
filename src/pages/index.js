@@ -20,9 +20,9 @@ export default function Home() {
         </div>
         <div className="marginauto md:w-5/6 lg:w-4/6">
           <div className="text-center tracking-widest font-normal text-gray-500 md:text-lg dark:text-gray-400 my-8">
-              Are you tired of the guesswork when it comes to your table arrangements? Look no further! Use the powerful 3D rendering technology for visualizing table arrangements before purchasing.
+              Are you tired of the guesswork when it comes to your table arrangements? Look no further! Use our powerful 3D rendering technology for visualizing table arrangements before purchasing.
           </div>
-          <div className="text-center my-8">
+          <div className="text-center my-8 py-4">
             <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-40">Get Demo</button>
             <a className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group button-color group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white dark:focus:ring-gray-800 w-40" href="./assemble">
               <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 w-40">
@@ -32,10 +32,10 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center text-gray-500" style={{marginTop: '7rem'}}>
-        <span style={{fontSize: "120%"}} className="wave mx-1">🎃</span> Designed & Developed by Aditya Patel © 2023
+        <span style={{fontSize: "130%"}} className="wave mx-1">🎃</span> Designed & Developed by Aditya Patel © 2023
         </div>
       </div>
-      <div className="indexSellingStyle py-40" style={{marginTop: "20rem", borderTop: "1px solid #000000"}}>
+      <div className="indexSellingStyle py-40" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unleash your imagination, let's recreate it together!</h2>
@@ -51,18 +51,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-white dark:bg-gray-900 py-52">
+      <div className="bg-white dark:bg-gray-900 py-52" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <Image className="w-full hidden dark:block border border-sky-500" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px"}} height={800} width={800} quality={100}/>
+          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100}/>
           <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel </h2>
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel, we turbocharged it! </h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Our arsenal comprises models from leading industry giants, empowering you with enhanced comprehension of your desktop arrangements and dimensions.</p>
+            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">The central objective of this project was to refine React skills and cultivate a comprehensive understanding of Three.js, leveraging the power of Three Fiber as a valuable tool.</p>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Some of the technologies used for engineering this project were:</p>
-            <div className="flex grid grid-cols-4 px-8">
-              <a href="https://react.dev/" target='_blank' className="hover-underline-animation" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40}/></a>
-              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42}/></a>
-              <a href="https://tailwindcss.com/" className="hover-underline-animation" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40}/></a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30}/></a>
+            <div className="flex grid grid-cols-4 px-8 my-1">
+              <a href="https://react.dev/" target='_blank' className="hover-underline-animation techIconsTransition" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40}/></a>
+              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42}/></a>
+              <a href="https://tailwindcss.com/" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40}/></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30}/></a>
             </div>
           </div>
         </div>

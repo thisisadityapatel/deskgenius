@@ -324,7 +324,6 @@ a {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: white;
 }
 
 .hover-underline-animation:after {
@@ -362,4 +361,17 @@ a {
   50% { transform: rotate(10.0deg) }
   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
+}
+
+.techIconsTransition {
+  padding-left: 0;
+  transition: padding-left 0.25s ease-out;
+}
+
+.techIconsTransition:hover {
+  padding-left: 20px;
+}
+
+.techIconsTransition:not(:hover) {
+  padding-left: 0;
 }
