@@ -8,11 +8,11 @@ import AssembleHeader from '@/components/AssembleHeader';
 
 const assemble = () => {
   const [maintable, setMainTable] = useState("desk3");
-  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}]);
+  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}, {"name": "asus_rog_g15", "count": 6}]);
   const [cameraposition, setCamera] = useState([0, 2.9, 4.6]);
   const [tablebuffer, setTableBuffer] = useState(deskmodels[maintable].y_buffer);
   const [newOtherModels, setNewOtherModels] = useState([]);
-  const [keepModelCount, setModelCount] = useState(6);
+  const [keepModelCount, setModelCount] = useState(7);
 
   const changeTable = (event, newTable) => {
     event.preventDefault();
@@ -58,9 +58,9 @@ const assemble = () => {
             <div id="accordion-tables-body" className="hidden" aria-labelledby="accordion-tables-heading">
               <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
                 <div className="mb-2 text-gray-500 dark:text-gray-400">    
-                  <DeskMenu modelName={"desk3"} modelTitle={"Standing Desk"} changeTable={changeTable}/>
-                  <DeskMenu modelName={"desk2"} modelTitle={"IKEA Bekant Desk"} changeTable={changeTable}/>
-                  <DeskMenu modelName={"desk1"} modelTitle={"Charcoal Desk"} changeTable={changeTable}/>
+                  <DeskMenu modelName={"desk3"} changeTable={changeTable}/>
+                  <DeskMenu modelName={"desk2"} changeTable={changeTable}/>
+                  <DeskMenu modelName={"desk1"} changeTable={changeTable}/>
                 </div>
               </div>
             </div>
@@ -115,8 +115,23 @@ const assemble = () => {
               </div>
             </div>
 
+            <h2 id="accordion-collapse-heading-7">
+              <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-7" aria-expanded="false" aria-controls="accordion-collapse-body-7">
+                <span>Laptops</span>
+                <svg data-accordion-icon className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-7" className="hidden" aria-labelledby="accordion-collapse-heading-7">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <div className="mb-2 text-gray-500 dark:text-gray-400">    
+                  <ModelMenu modelName={"asus_rog_g15"} addNewModel={appendNewModel}/>
+                  <ModelMenu modelName={"macbook_pro_16_2021"} addNewModel={appendNewModel}/>
+                </div>
+              </div>
+            </div>
+
             <h2 id="accordion-collapse-heading-4">
-              <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+              <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
                 <span>Mouses</span>
                 <svg data-accordion-icon className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
               </button>
@@ -127,6 +142,22 @@ const assemble = () => {
                   <ModelMenu modelName={"mouse1"} addNewModel={appendNewModel}/>
                   <ModelMenu modelName={"mouse2"} addNewModel={appendNewModel}/>
                   <ModelMenu modelName={"mouse3"} addNewModel={appendNewModel}/>
+                </div>
+              </div>
+            </div>
+
+            <h2 id="accordion-collapse-heading-6">
+              <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+                <span>Misc.</span>
+                <svg data-accordion-icon className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+              </button>
+            </h2>
+            <div id="accordion-collapse-body-6" className="hidden" aria-labelledby="accordion-collapse-heading-6">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <div className="mb-2 text-gray-500 dark:text-gray-400">    
+                  <ModelMenu modelName={"legobatman"} addNewModel={appendNewModel}/>
+                  <ModelMenu modelName={"tablelamp1"} addNewModel={appendNewModel}/>
+                  <ModelMenu modelName={"tablemic1"} addNewModel={appendNewModel}/>
                 </div>
               </div>
             </div>
