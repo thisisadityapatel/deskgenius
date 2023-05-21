@@ -40,6 +40,7 @@ const assemble = () => {
     setNewOtherModels([]);
     setMainTable("desk3");
     setTableBuffer(deskmodels["desk3"].y_buffer);
+    setCamera([0, 2.9, 4.6]);
   }
 
   return (

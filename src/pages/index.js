@@ -35,7 +35,7 @@ export default function Home() {
         <span style={{fontSize: "130%"}} className="wave mx-1">🎃</span> Designed & Developed by Aditya Patel © 2023
         </div>
       </div>
-      <div className="indexSellingStyle py-40" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
+      <div className="indexSellingStyle py-48" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unleash your imagination, let's recreate it together!</h2>
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-white dark:bg-gray-900 py-52" style={{ borderTop: "2px solid black"}}>
+      <div className="bg-white dark:bg-gray-900 py-60" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100}/>
           <div className="mt-4 md:mt-0">

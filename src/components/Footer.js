@@ -40,7 +40,7 @@ const Footer = () => {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
                             <li className="mb-4">
-                                <Link href="/copyrights" className="hover-underline-animation">Copyrights</Link>
+                                <Link href="/license" className="hover-underline-animation">License</Link>
                             </li>
                             <li>
                                 <Link href="/credits" className="hover-underline-animation">Credits and Resources</Link>
