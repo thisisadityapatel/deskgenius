@@ -3,22 +3,22 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { useGLTF, OrbitControls } from '@react-three/drei'
 
 function useEventListener(eventName, handler, element = window) {
-    const savedHandler = useRef();
-    useEffect(() => {
-      savedHandler.current = handler;
-    }, [handler]);
-    useEffect(
-      () => {
-        const isSupported = element && element.addEventListener;
-        if (!isSupported) return;
-        const eventListener = (event) => savedHandler.current(event);
-        element.addEventListener(eventName, eventListener);
-        return () => {
-          element.removeEventListener(eventName, eventListener);
-        };
-      },
-      [eventName, element]
-    );
+  const savedHandler = useRef();
+  useEffect(() => {
+    savedHandler.current = handler;
+  }, [handler]);
+  useEffect(
+    () => {
+      const isSupported = element && element.addEventListener;
+      if (!isSupported) return;
+      const eventListener = (event) => savedHandler.current(event);
+      element.addEventListener(eventName, eventListener);
+      return () => {
+        element.removeEventListener(eventName, eventListener);
+      };
+    },
+    [eventName, element]
+  );
 }
 
 const ThreeModel = (props) => {
@@ -47,8 +47,8 @@ const ThreeModel = (props) => {
         case 83:setCoordinates([coordinates[0], coordinates[1]-0.04, coordinates[2]]); break;
 
         //rotation co-ordination
-        case 65:setRotation([rotation[0], rotation[1]+Math.PI/12, rotation[2]]); break;
-        case 68:setRotation([rotation[0], rotation[1]-Math.PI/12, rotation[2]]);break;
+        case 65:setRotation([rotation[0], rotation[1]-Math.PI/12, rotation[2]]); break;
+        case 68:setRotation([rotation[0], rotation[1]+Math.PI/12, rotation[2]]);break;
 
         //removing the element
         case 88: props.removeModel(props.elementModelName, props.elementModelCount);

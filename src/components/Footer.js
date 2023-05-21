@@ -43,7 +43,7 @@ const Footer = () => {
                                 <Link href="/license" className="hover-underline-animation">License</Link>
                             </li>
                             <li>
-                                <Link href="/credits" className="hover-underline-animation">Credits and Resources</Link>
+                                <Link href="/credits" className="hover-underline-animation">Notes and Resources</Link>
                             </li>
                         </ul>
                     </div>
