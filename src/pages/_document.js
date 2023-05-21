@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 export default function Document() {
 
   return (
-    <Html lang="en">
+    <Html lang="en" className="dark">
       <Head />
       <body className="backgroundgrid">
         <Main />
