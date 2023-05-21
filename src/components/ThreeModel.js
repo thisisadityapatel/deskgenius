@@ -29,10 +29,6 @@ const ThreeModel = (props) => {
   const [coordinates, setCoordinates] = useState(props.position);
   const [rotation, setRotation] = useState(props.rotation);
 
-  useEffect(() => {
-    setCoordinates(props.position);
-  }, [props.position]);
-
   useEventListener("keydown", (event) => {
     if(selected){
       switch (event.keyCode){
