@@ -36,10 +36,11 @@ const assemble = () => {
 
   const resetTableConfig = (event) => {
     event.preventDefault();
-    setSecondaryModel([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}])
+    setSecondaryModel([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}, {"name": "asus_rog_g15", "count": 6}])
     setNewOtherModels([]);
     setMainTable("desk3");
     setTableBuffer(deskmodels["desk3"].y_buffer);
+    setCamera([0, 2.9, 4.6]);
   }
 
   return (
