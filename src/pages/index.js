@@ -60,10 +60,10 @@ export default function Home() {
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">The central objective of this project was to refine React skills and cultivate a comprehensive understanding of Three.js, leveraging the power of Three Fiber as a valuable tool.</p>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Some of the technologies used for engineering this project were:</p>
             <div className="flex grid grid-cols-4 px-8 my-1">
-              <a href="https://react.dev/" target='_blank' className="hover-underline-animation techIconsTransition" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40}/></a>
-              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42}/></a>
-              <a href="https://tailwindcss.com/" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40}/></a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30}/></a>
+              <a href="https://react.dev/" target='_blank' className="hover-underline-animation techIconsTransition" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40} alt="React Logo"/></a>
+              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42} alt="ThreeJS Logo"/></a>
+              <a href="https://tailwindcss.com/" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40} alt="TailwindCSS Logo"/></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30} alt="JavaScript Logo"/></a>
             </div>
           </div>
         </div>

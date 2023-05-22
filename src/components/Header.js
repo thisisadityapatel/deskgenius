@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import * as Icon from 'react-bootstrap-icons';
+import Image from 'next/image';
 
 const Header = () => {
     return (  
     <nav className="backdrop-filter backdrop-blur-lg bg-opacity-90 fixed w-full z-20 top-0 left-0 border-b border-gray-800 dark:border-gray-800">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
       <a href="https://deskgenius.vercel.app/" className="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo"/>
+          <img src="/companyLogo/deskgeniusLogo.png" className="h-8 mr-3" alt="Deskgenius Logo" quality={100}/>
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DeskGenius</span>
       </a>
       <div className="flex md:order-2">
