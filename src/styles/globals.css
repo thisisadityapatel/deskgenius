@@ -302,8 +302,8 @@ a {
   position: absolute;
   width: 22rem;
   height: 80vh;
-  background-color: black;
-  opacity: 0.9;
+  background-color: rgba(0,0,0, 0.2);
+  backdrop-filter: blur(8px);
   color: black;
   z-index:2;
   border:2px solid white;
@@ -374,4 +374,11 @@ a {
 
 .techIconsTransition:not(:hover) {
   padding-left: 0;
+}
+
+.modalBlurrBackground{
+  background-color: rgba(60,79,106, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid aqua;
+  border-radius: 15px; 
 }

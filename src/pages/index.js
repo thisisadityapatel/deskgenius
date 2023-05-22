@@ -23,7 +23,7 @@ export default function Home() {
               Are you tired of the guesswork when it comes to your table arrangements? Look no further! Use our powerful 3D rendering technology for visualizing table arrangements before purchasing.
           </div>
           <div className="text-center my-8 py-4">
-            <Link type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-40" href="/credits">Notes</Link>
+            <Link type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-40" href="/credits">Learn More</Link>
             <a className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group button-color group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white dark:focus:ring-gray-800 w-40" href="./assemble">
               <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 w-40">
                   Start Designing
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div className="bg-white dark:bg-gray-900 py-60" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100}/>
+          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100} priority/>
           <div className="mt-4 md:mt-0">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel, we turbocharged it! </h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Our arsenal comprises models from leading industry giants, empowering you with enhanced comprehension of your desktop arrangements and dimensions.</p>

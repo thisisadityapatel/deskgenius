@@ -191,9 +191,9 @@ const assemble = () => {
           </div>
         </div>
       </div>
-      <div id="tutorialModal" data-modal-backdrop="static" tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div id="tutorialModal" data-modal-backdrop="static" tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full justify-center items-center flex" aria-modal="true" role="dialog">
           <div className="relative w-full max-w-lg max-h-full">
-            <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <div className="relative modalBlurrBackground rounded-lg shadow">
                 <div className="flex items-center justify-between p-5 border-b rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">
                         Quick Tutorial
@@ -243,7 +243,7 @@ const assemble = () => {
                     <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                       <p className="text-1xl text-white">Reset Room</p>
                       <p className="text-1xl text-gray-400">
-                        To reset all the canvas to the original config. click <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 px-1">Reset Room</button> button at the navigation bar.
+                        To reset the canvas to the original config. click <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 px-1">Reset Room</button> button at the navigation bar.
                       </p>
                     </div>
                 </div>
