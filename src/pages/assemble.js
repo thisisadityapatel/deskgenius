@@ -53,7 +53,7 @@ const assemble = () => {
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DeskGenius</span>
               </a>
               <div className="flex md:order-2">
-                  <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800" onClick={(e) => props.resetTableConfig(e)}>Reset Room</button>
+                  <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800" onClick={(e) => resetTableConfig(e)}>Reset Room</button>
                   <Link href="https://github.com/thisisadityapatel/deskgenius" target="_blank" className="mx-4 pt-3 text-gray-200 hover:text-gray-500"><Icon.Github size={21}/></Link>
                   <Link href="#" className="mx-1 pt-3 text-gray-200 hover:text-gray-500"><Icon.EnvelopeFill size={21}/></Link>
               </div>
