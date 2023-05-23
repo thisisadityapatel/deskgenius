@@ -19,7 +19,7 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [thiselement.position[0], thiselement.position[1] + tablebuffer, thiselement.position[2]];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeModel} elementModelName={element.name} elementModelCount={element.count}/>
+                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer}/>
                 })
             }
             {
@@ -27,7 +27,7 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [-1, thiselement.position[1] + tablebuffer, 0];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeOtherModel} elementModelName={element.name} elementModelCount={element.count}/>
+                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeOtherModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer}/>
                 })
             }
             <OrbitControls/>

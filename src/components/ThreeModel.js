@@ -4,9 +4,11 @@ import { useGLTF, OrbitControls } from '@react-three/drei'
 
 function useEventListener(eventName, handler, element = window) {
   const savedHandler = useRef();
+  
   useEffect(() => {
     savedHandler.current = handler;
   }, [handler]);
+
   useEffect(
     () => {
       const isSupported = element && element.addEventListener;
@@ -28,6 +30,10 @@ const ThreeModel = (props) => {
   const copiedScene = useMemo(() => scene.clone(), [scene])
   const [coordinates, setCoordinates] = useState(props.position);
   const [rotation, setRotation] = useState(props.rotation);
+
+  useEffect(() => {
+    setCoordinates(props.position);
+  }, [props.tablebuffer])
 
   useEventListener("keydown", (event) => {
     if(selected){
