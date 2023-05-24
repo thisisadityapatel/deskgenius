@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Canvas, useFrame, raycaster} from '@react-three/fiber'
 import { useGLTF, OrbitControls, Stats} from '@react-three/drei'
 import ThreeModel from '@/components/ThreeModel'

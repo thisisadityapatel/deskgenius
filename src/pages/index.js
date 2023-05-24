@@ -46,24 +46,24 @@ export default function Home() {
               </a>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
-              <img className="w-full rounded-lg" src="/images/desksetup1.png" alt="setput image" />
+              <img className="w-full rounded-lg" src="/images/desksetup1.png" alt="setput image"/>
               <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
           </div>
         </div>
       </div>
       <div className="bg-white dark:bg-gray-900 py-60" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100} priority/>
+          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100} priority={true}/>
           <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel, we turbocharged it! </h2>
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel, we turbocharged it!</h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Our arsenal comprises models from leading industry giants, empowering you with enhanced comprehension of your desktop arrangements and dimensions.</p>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">The central objective of this project was to refine React skills and cultivate a comprehensive understanding of Three.js, leveraging the power of Three Fiber as a valuable tool.</p>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Some of the technologies used for engineering this project were:</p>
             <div className="flex grid grid-cols-4 px-8 my-1">
-              <a href="https://react.dev/" target='_blank' className="hover-underline-animation techIconsTransition" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40} alt="React Logo"/></a>
-              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42} alt="ThreeJS Logo"/></a>
-              <a href="https://tailwindcss.com/" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40} alt="TailwindCSS Logo"/></a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30} alt="JavaScript Logo"/></a>
+              <a href="https://react.dev/" target='_blank' className="hover-underline-animation techIconsTransition" aria-label='React'><Image src="/techLogos/react.png" height={40} width={40} alt="React Logo" priority={true}/></a>
+              <a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Three.JS'><Image src="/techLogos/three.png" height={42} width={42} alt="ThreeJS Logo" priority={true}/></a>
+              <a href="https://tailwindcss.com/" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='Tailwind CSS'><Image src="/techLogos/tailwind.png" height={40} width={40} alt="TailwindCSS Logo" priority={true}/></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" className="hover-underline-animation techIconsTransition" target='_blank' aria-label='JavaScript ES6+'><Image src="/techLogos/javascript1.png" height={30} width={30} alt="JavaScript Logo" priority={true}/></a>
             </div>
           </div>
         </div>

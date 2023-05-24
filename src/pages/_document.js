@@ -5,7 +5,10 @@ export default function Document() {
 
   return (
     <Html lang="en" className="dark">
-      <Head />
+      <Head>
+        <link rel="shortcut icon" href="companyLogo/deskgeniusLogo.png" />
+        <title>DeskGenius</title>
+      </Head>
       <body className="backgroundgrid">
         <Main />
         <NextScript />
