@@ -1,38 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DeskGenius [@deskgenius.vercel.app](https://deskgenius.vercel.app/).
 
-## Getting Started
+DeskGenius is a web application that utilizes 3D rendering technology to help you visualize table arrangements before making a purchase. Whether you're setting up a home office, workspace, or gaming station, DeskGenius allows you to explore different desk configurations in a virtual environment. By combining the power of Next.js and Three Fiber (Three.js), DeskGenius offers an interactive and immersive experience that saves you time, money, and energy in creating your dream setup.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+-   **3D Rendering**: DeskGenius leverages the capabilities of Three Fiber (Three.js) to create realistic 3D models of various desk components, allowing you to visualize your desired table arrangements from different angles.
+    
+-   **Real-Time Preview**: Instantly see the changes you make to your desk arrangement, providing immediate feedback and facilitating quick decision-making.
+    
+-   **Multiple Models at Disposal**: DeskGenius offers a wide selection of desk models to choose from, with new additions constantly being incorporated to provide you with endless possibilities for your ideal setup.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-   **Next.js**: DeskGenius is built on Next.js, a React framework that provides server-side rendering, easy routing, and optimized performance.
+    
+-   **Three Fiber (Three.js)**: Three Fiber is a React renderer for Three.js, allowing the creation of interactive and visually stunning 3D scenes in a web environment.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **drei (Three.js Library)** : drei is a collection of useful helpers and fully functional abstractions for [@react-three/fiber](https://github.com/pmndrs/react-three-fiber).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-  **TailwindCSS**: DeskGenius utilizes Tailwind CSS for stylish and responsive design, providing an intuitive and visually appealing experience as you create your perfect desk setup.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Install Locally
 
-## Learn More
+To get a local copy of DeskGenius up and running, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1.  Clone this repository: `https://github.com/thisisadityapatel/deskgenius.git`
+2.  Navigate to the project directory: `cd desk-genius`
+3.  Install the dependencies: `yarn install`
+4.  Start the development server: `yarn dev`
+5.  Open your web browser and visit: `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future of this project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Building this project has been an incredibly rewarding experience, allowing me to delve into the fascinating realm of web-based 3D rendering. Throughout the development process, I discovered the immense potential of this technology in transforming the way we visualize and design our spaces. Moving forward, I am excited to introduce new features such as customizable length and width table configurations, empowering users to personalize their setups even further. Additionally, I am might work on implementing configuration saving functionality to enable users to conveniently store and revisit their favorite arrangements. My ultimate goal is to enhance the versatility of DeskGenius by enabling direct model imports, expanding the range of options and possibilities for creating your dream desk setup. Stay tuned for these exciting updates!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://github.com/thisisadityapatel/deskgenius/blob/main/LICENSE).
+
+## Acknowledgements
+
+-   [Next.js](https://nextjs.org/)
+-   [Three Fiber](https://github.com/pmndrs/react-three-fiber)
+-   [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+-   [Unsplash](https://unsplash.com/) for the images used in the application.
+
+----------
+
+With DeskGenius, designing your perfect desk setup has never been easier. Save time, money, and energy by visualizing and experimenting with different configurations before making a purchase. Lets DeskGenius!!
