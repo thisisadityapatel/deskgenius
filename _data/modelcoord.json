@@ -18,5 +18,5 @@
     "tablelamp1" : {"position" : [-1.3, 1.41, 0.7], "scale" : 0.012, "location" : "/misc/tablelamp1.glb", "rotationx" : 0, "rotationy" : 1.3, "rotationz" : 0, "title" : "Lamp", "description" : "Standard Lamp"},
     "asus_rog_g15" : {"position" : [-0.9, 1.433, 0.3], "scale" : 2, "location" : "/laptops/asus_rog_g15.glb", "rotationx" : 0, "rotationy" : 0.2, "rotationz" : 0, "title" : "Asus ROG G15", "description" : "16\" Intel i9, 2022"},
     "macbook_pro_16_2021" : {"position" : [-0.9, 1.433, 0.3], "scale" : 0.17, "location" : "/laptops/macbook_pro_16_2021.glb", "rotationx" : 0, "rotationy" : 0.2, "rotationz" : 0, "title" : "Macbook Pro", "description" : "16\", M2 Max 2023"},
-    "ipad_air" : {"position" : [-0.9, 1.433, 0.3], "scale" : 2.2, "location" : "/laptops/ipad_air.glb", "rotationx" : 0, "rotationy" : 0.2, "rotationz" : 0, "title" : "Ipad Air", "description" : "16\", M2 Max 2023"}
+    "ipad_air" : {"position" : [-0.9, 1.433, 0.3], "scale" : 2.2, "location" : "/laptops/ipad_air.glb", "rotationx" : 0, "rotationy" : 0.2, "rotationz" : 0, "title" : "Ipad Air", "description" : "10.9\", M1 8GB 2023"}
 }
