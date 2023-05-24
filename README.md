@@ -1,4 +1,4 @@
-# ![Logo](https://github.com/thisisadityapatel/deskgenius/blob/main/public/companyLogo/deskgeniusLogo.png) DeskGenius [@deskgenius.vercel.app](https://deskgenius.vercel.app/).
+# <img src="https://github.com/thisisadityapatel/deskgenius/blob/main/public/companyLogo/deskgeniusLogo.png" alt="Logo" width="200" height="200"> DeskGenius [@deskgenius.vercel.app](https://deskgenius.vercel.app/).
 
 DeskGenius is a web application that utilizes 3D rendering technology to help you visualize table arrangements before making a purchase. Whether you're setting up a home office, workspace, or gaming station, DeskGenius allows you to explore different desk configurations in a virtual environment. By combining the power of Next.js and Three Fiber (Three.js), DeskGenius offers an interactive and immersive experience that saves you time, money, and energy in creating your dream setup.
 
