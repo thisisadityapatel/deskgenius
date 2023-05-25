@@ -44,6 +44,7 @@ This project is licensed under the [MIT License](https://github.com/thisisaditya
 -   [Next.js](https://nextjs.org/)
 -   [Three Fiber](https://github.com/pmndrs/react-three-fiber)
 -   [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+-   [Vercel](https://vercel.com/)
 -   [Unsplash](https://unsplash.com/) for the images used in the application.
 
 ----------
