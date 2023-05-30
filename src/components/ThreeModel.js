@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { useGLTF, OrbitControls } from '@react-three/drei'
+import { useGLTF, OrbitControls, TransformControls } from '@react-three/drei'
 
 function useEventListener(eventName, handler, element = window) {
   const savedHandler = useRef();
@@ -24,7 +24,7 @@ function useEventListener(eventName, handler, element = window) {
 }
 
 const ThreeModel = (props) => {
-  let thisElem = useRef();
+  let ref = useRef();
   const [selected, click] = useState(false)
   const { scene } = useGLTF(props.modelLocation);
   const copiedScene = useMemo(() => scene.clone(), [scene])
@@ -58,10 +58,16 @@ const ThreeModel = (props) => {
     }
   });
 
+  const handleClick = () => {
+    props.enableOrbitControl(selected);
+    click(!selected);
+  }
+
   return (
     <group>
-        <primitive object={copiedScene} position={coordinates} onClick={(event) => click(!selected)} scale={selected?props.scale+(props.scale * 0.1):props.scale} rotation={rotation}/>
-        {selected && <axesHelper position={coordinates}/>}
+      <TransformControls ref={ref} position={coordinates} enabled={selected} onStart={()=>{console.log("Testig")}}>
+        <primitive object={copiedScene} onClick={(event) => handleClick()} scale={selected?props.scale+(props.scale * 0.1):props.scale} rotation={rotation}/>
+      </TransformControls>
     </group>
   )
 }

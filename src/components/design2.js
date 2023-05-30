@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Canvas, useFrame, raycaster} from '@react-three/fiber'
 import { useGLTF, OrbitControls, Stats} from '@react-three/drei'
 import ThreeModel from '@/components/ThreeModel'
@@ -7,6 +7,12 @@ import secondarymodels from '_data/modelcoord.json';
 import deskmodels from '_data/deskcoord.json';
 
 const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tablebuffer, removeModel, removeOtherModel}) => {
+    const [orbitControlFlag, setOrbitControlFlag] = useState(true);
+
+    const enableOrbitControl = (input) => {
+        setOrbitControlFlag(input);
+    }
+
     return(
         <Canvas dpr={[1, 2]} shadows camera={{fov: 75, position: cameraposition}} style={{position: "absolute"}}>
             <ambientLight intensity={2} />
@@ -19,7 +25,7 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [thiselement.position[0], thiselement.position[1] + tablebuffer, thiselement.position[2]];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer}/>
+                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer} enableOrbitControl={enableOrbitControl}/>
                 })
             }
             {
@@ -27,10 +33,10 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [-1, thiselement.position[1] + tablebuffer, 0];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeOtherModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer}/>
+                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeOtherModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer} enableOrbitControl={enableOrbitControl}/>
                 })
             }
-            <OrbitControls/>
+            <OrbitControls enabled={orbitControlFlag}/>
             <gridHelper args={[20, 20, 0xff0000, 'teal']}/>
             <Stats />
         </Canvas>
