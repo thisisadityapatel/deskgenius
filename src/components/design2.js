@@ -8,6 +8,22 @@ import deskmodels from '_data/deskcoord.json';
 
 const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tablebuffer, removeModel, removeOtherModel}) => {
     const [orbitControlFlag, setOrbitControlFlag] = useState(true);
+    const [trackSelectedModels, setTrackSelectedModels] = useState(0);
+
+    const incrementSelectedModels = () => {
+        if(trackSelectedModels == 0){
+            setOrbitControlFlag(false);
+        }
+        setTrackSelectedModels(trackSelectedModels + 1);
+    }
+
+    const decrementSelectedModels = () => {
+        console.log("Enter name of the person!!");
+        if(trackSelectedModels == 1){
+            setOrbitControlFlag(true);
+        }
+        setTrackSelectedModels(trackSelectedModels - 1);
+    }
 
     const enableOrbitControl = (input) => {
         setOrbitControlFlag(input);
@@ -19,13 +35,27 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
             <color attach="background" args={["black"]} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1}/>
             <pointLight position={[-10, -10, -10]}/>
-            <PrimaryModel rotation={[0, 0, 0]} position={deskmodels[maintable].position} scale={deskmodels[maintable].scale} modelLocation={deskmodels[maintable].location}/>
+            <PrimaryModel rotation={[0, 0, 0]} 
+                position={deskmodels[maintable].position} 
+                scale={deskmodels[maintable].scale} 
+                modelLocation={deskmodels[maintable].location}/>
             {
                 othermodels.map((element) => {
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [thiselement.position[0], thiselement.position[1] + tablebuffer, thiselement.position[2]];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer} enableOrbitControl={enableOrbitControl}/>
+                    return <ThreeModel key={element.name + element.count} 
+                        rotation={thisrotation} 
+                        position={thisposition} 
+                        scale={thiselement.scale} 
+                        modelLocation={thiselement.location} 
+                        removeModel={removeModel} 
+                        elementModelName={element.name} 
+                        elementModelCount={element.count} 
+                        tablebuffer={tablebuffer} 
+                        enableOrbitControl={enableOrbitControl}
+                        incrementSelectedModels={incrementSelectedModels}
+                        decrementSelectedModels={decrementSelectedModels}/>
                 })
             }
             {
@@ -33,7 +63,16 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                     let thiselement = secondarymodels[element.name];
                     let thisrotation = [Math.PI * thiselement.rotationx, Math.PI * thiselement.rotationy, Math.PI * thiselement.rotationz]; 
                     let thisposition = [-1, thiselement.position[1] + tablebuffer, 0];
-                    return <ThreeModel key={element.name + element.count} rotation={thisrotation} position={thisposition} scale={thiselement.scale} modelLocation={thiselement.location} removeModel={removeOtherModel} elementModelName={element.name} elementModelCount={element.count} tablebuffer={tablebuffer} enableOrbitControl={enableOrbitControl}/>
+                    return <ThreeModel key={element.name + element.count} 
+                        rotation={thisrotation} 
+                        position={thisposition} 
+                        scale={thiselement.scale} 
+                        modelLocation={thiselement.location} 
+                        removeModel={removeOtherModel} 
+                        elementModelName={element.name} 
+                        elementModelCount={element.count} 
+                        tablebuffer={tablebuffer} 
+                        enableOrbitControl={enableOrbitControl}/>
                 })
             }
             <OrbitControls enabled={orbitControlFlag}/>

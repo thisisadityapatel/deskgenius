@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { useGLTF, OrbitControls, TransformControls } from '@react-three/drei'
+import { useGLTF, TransformControls } from '@react-three/drei'
 
 function useEventListener(eventName, handler, element = window) {
   const savedHandler = useRef();
@@ -39,14 +39,14 @@ const ThreeModel = (props) => {
     if(selected){
       switch (event.keyCode){
         //x-z plane co-ordination
-        case 37:setCoordinates([coordinates[0]-0.04, coordinates[1], coordinates[2]]);break;
-        case 39:setCoordinates([coordinates[0]+0.04, coordinates[1], coordinates[2]]);break;
-        case 38:setCoordinates([coordinates[0], coordinates[1], coordinates[2]-0.04]);break;
-        case 40:setCoordinates([coordinates[0], coordinates[1], coordinates[2]+0.04]);break;
+        case 37:setCoordinates([coordinates[0]-0.02, coordinates[1], coordinates[2]]);break;
+        case 39:setCoordinates([coordinates[0]+0.02, coordinates[1], coordinates[2]]);break;
+        case 38:setCoordinates([coordinates[0], coordinates[1], coordinates[2]-0.02]);break;
+        case 40:setCoordinates([coordinates[0], coordinates[1], coordinates[2]+0.02]);break;
 
         // y-axis  co-ordination
-        case 87:setCoordinates([coordinates[0], coordinates[1]+0.04, coordinates[2]]);break;
-        case 83:setCoordinates([coordinates[0], coordinates[1]-0.04, coordinates[2]]); break;
+        case 87:setCoordinates([coordinates[0], coordinates[1]+0.02, coordinates[2]]);break;
+        case 83:setCoordinates([coordinates[0], coordinates[1]-0.02, coordinates[2]]); break;
 
         //rotation co-ordination
         case 65:setRotation([rotation[0], rotation[1]-Math.PI/12, rotation[2]]); break;
@@ -59,13 +59,18 @@ const ThreeModel = (props) => {
   });
 
   const handleClick = () => {
-    props.enableOrbitControl(selected);
+    if(selected == true){
+      props.decrementSelectedModels();
+    }
+    else{
+      props.incrementSelectedModels();
+    }
     click(!selected);
   }
 
   return (
     <group>
-      <TransformControls ref={ref} 
+      <TransformControls ref={ref}
         position={coordinates} 
         enabled={selected} 
         showX={selected} 
