@@ -65,8 +65,17 @@ const ThreeModel = (props) => {
 
   return (
     <group>
-      <TransformControls ref={ref} position={coordinates} enabled={selected} onStart={()=>{console.log("Testig")}}>
-        <primitive object={copiedScene} onClick={(event) => handleClick()} scale={selected?props.scale+(props.scale * 0.1):props.scale} rotation={rotation}/>
+      <TransformControls ref={ref} 
+        position={coordinates} 
+        enabled={selected} 
+        showX={selected} 
+        showZ={selected} 
+        showY={selected}
+        onMouseUp={()=>{handleClick()}}>
+        <primitive object={copiedScene}
+          onClick={(event) => handleClick()} 
+          scale={selected?props.scale+(props.scale * 0.1):props.scale} 
+          rotation={rotation}/>
       </TransformControls>
     </group>
   )
