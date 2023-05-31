@@ -53,7 +53,7 @@ const ThreeModel = (props) => {
         case 68:setRotation([rotation[0], rotation[1]+Math.PI/12, rotation[2]]);break;
 
         //removing the element
-        case 88: props.removeModel(props.elementModelName, props.elementModelCount);
+        case 88: props.removeModel(props.elementModelName, props.elementModelCount); props.decrementSelectedModels();
       }
     }
   });
