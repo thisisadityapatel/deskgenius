@@ -213,7 +213,7 @@ const assemble = () => {
                 </div>
                 <div className="p-6 space-y-6">
                     <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                      <p className="text-1xl text-white">Position Movements</p>
+                      <p className="text-1xl text-white">Precision Position Movements</p>
                       <p className="text-1xl text-gray-400 flex justify-left">
                         x-axis movements: ➡ and ⬅ keys
                       </p>

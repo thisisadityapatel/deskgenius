@@ -53,7 +53,6 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                         elementModelName={element.name} 
                         elementModelCount={element.count} 
                         tablebuffer={tablebuffer} 
-                        enableOrbitControl={enableOrbitControl}
                         incrementSelectedModels={incrementSelectedModels}
                         decrementSelectedModels={decrementSelectedModels}/>
                 })
@@ -72,7 +71,8 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
                         elementModelName={element.name} 
                         elementModelCount={element.count} 
                         tablebuffer={tablebuffer} 
-                        enableOrbitControl={enableOrbitControl}/>
+                        incrementSelectedModels={incrementSelectedModels}
+                        decrementSelectedModels={decrementSelectedModels}/>
                 })
             }
             <OrbitControls enabled={orbitControlFlag}/>
