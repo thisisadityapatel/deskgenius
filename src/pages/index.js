@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div className="bg-white dark:bg-gray-900 py-60" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <Image className="w-full hidden dark:block" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100} priority={true}/>
+          <Image className="w-full hidden dark:block shadow" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "1px solid aqua"}} height={800} width={800} quality={100} priority={true}/>
           <div className="mt-4 md:mt-0">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel, we turbocharged it!</h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Our arsenal comprises models from leading industry giants, empowering you with enhanced comprehension of your desktop arrangements and dimensions.</p>
