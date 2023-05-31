@@ -18,7 +18,6 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
     }
 
     const decrementSelectedModels = () => {
-        console.log("Enter name of the person!!");
         if(trackSelectedModels == 1){
             setOrbitControlFlag(true);
         }
