@@ -29,7 +29,7 @@ Building this project has been an incredibly rewarding experience, allowing me t
 To get a local copy of DeskGenius up and running, follow these steps:
 
 1.  Clone this repository: `https://github.com/thisisadityapatel/deskgenius.git`
-2.  Navigate to the project directory: `cd desk-genius`
+2.  Navigate to the project directory: `cd deskgenius`
 3.  Install the dependencies: `yarn install`
 4.  Start the development server: `yarn dev`
 5.  Open your web browser and visit: `http://localhost:3000`
