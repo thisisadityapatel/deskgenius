@@ -78,7 +78,10 @@ const ThreeModel = (props) => {
         showY={selected}
         onMouseUp={()=>{handleClick()}}>
         <primitive object={copiedScene}
-          onClick={(event) => handleClick()} 
+          onClick={(event) => {
+            handleClick();
+            event.stopPropagation(); //raycaster stops when the ray hits the first 3D model
+          }} 
           scale={selected?props.scale+(props.scale * 0.1):props.scale} 
           rotation={rotation}/>
       </TransformControls>
