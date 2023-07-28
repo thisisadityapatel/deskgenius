@@ -2,7 +2,7 @@
 
 <p align="center">
   <kbd>
-    <img src="./public/images/tableLayout.png" alt="Alt Text" width="900" style="border: 2px solid gray">
+    <img src="./public/images/tableLayout.png" alt="Alt Text" width="700" style="border: 2px solid gray">
   </kbd>
 </p>
 
