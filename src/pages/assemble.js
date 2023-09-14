@@ -224,6 +224,42 @@ const assemble = () => {
                 </div></>:<>
                 <div className="p-6 space-y-6">
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Change Camera Position</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Click & slide using two fingers to the change camera position
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Rotate Camera Position</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Click & slide using one fingers to the rotate camera position
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Zoom In & Out</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Slide <span className="font-black text-gray-900 text-white px-1">UP</span> using two fingers to zoom out and <span className="font-black text-gray-900 text-white px-1">DOWN</span> to zoom in
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Select Model</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Click on the model to select.
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Rotate Model</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Left and Right rotation: <span className="font-black text-gray-900 text-white px-1">A</span> and <span className="font-black text-gray-900 text-white px-1">D</span> keys
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Remove Model</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Remove model from canvas using <span className="font-black text-gray-900 text-white px-1">X</span> key
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Precision Position Movements</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
                       x-axis movements: ➡ and ⬅ keys
@@ -236,39 +272,9 @@ const assemble = () => {
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Rotation Movements</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Left and Right rotation: <span className="font-black text-gray-900 text-white px-1">A</span> and <span className="font-black text-gray-900 text-white px-1">D</span> keys
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Remove Model</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Remove model from canvas using <span className="font-black text-gray-900 text-white px-1">X</span> key
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Zoom In & Out</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Slide <span className="font-black text-gray-900 text-white px-1">UP</span> using two fingers to zoom out and <span className="font-black text-gray-900 text-white px-1">DOWN</span> to zoom in
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Change Camera Position</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Click & slide using two fingers to the change camera position
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Select Model</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Click on the model to select.
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Reset Room</p>
                     <p className="text-1xl text-gray-400">
-                      To reset the canvas to the original config. click <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 px-1">Reset Room</button> button at the navigation bar.
+                      To reset the canvas to the original config. click <button type="button" className="text-gray-900 hover:text-white border ms-1border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 px-1">Reset Room</button> button on top right.
                     </p>
                   </div>
                 </div>
