@@ -26,10 +26,6 @@ DeskGenius is a web application that utilizes 3D rendering technology to help yo
 
 -  **TailwindCSS**: DeskGenius utilizes Tailwind CSS for stylish and responsive design, providing an intuitive and visually appealing experience as you create your perfect desk setup.
 
-## Future of this project
-
-Building this project has been an incredibly rewarding experience, allowing me to delve into the fascinating realm of web-based 3D rendering. Throughout the development process, I discovered the immense potential of this technology in transforming the way we visualize and design our spaces. Moving forward, I am excited to introduce new features such as customizable length and width table configurations, empowering users to personalize their setups even further. Additionally, I am might work on implementing configuration saving functionality to enable users to conveniently store and revisit their favorite arrangements. My ultimate goal is to enhance the versatility of DeskGenius by enabling direct model imports, expanding the range of options and possibilities for creating your dream desk setup. Stay tuned for these exciting updates!
-
 ## Install Locally
 
 To get a local copy of DeskGenius up and running, follow these steps:
