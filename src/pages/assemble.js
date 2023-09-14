@@ -10,7 +10,7 @@ import { isMobile } from 'react-device-detect';
 
 const assemble = () => {
   const [maintable, setMainTable] = useState("desk3");
-  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor2", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "pc2", "count": 3}, {"name": "legobatman", "count": 4}, {"name": "tablelamp1", "count": 5}, {"name": "ipad_air", "count": 6}]);
+  const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor4", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "ipad_air", "count": 3}]);
   const [cameraposition, setCamera] = useState([0, 2.9, 4.6]);
   const [tablebuffer, setTableBuffer] = useState(deskmodels[maintable].y_buffer);
   const [newOtherModels, setNewOtherModels] = useState([]);
@@ -40,12 +40,9 @@ const assemble = () => {
     event.preventDefault();
     setSecondaryModel([
       {"name": "keyboard2", "count": 0}, 
-      {"name": "monitor2", "count": 1}, 
+      {"name": "monitor4", "count": 1}, 
       {"name": "mouse2", "count": 2}, 
-      {"name": "pc2", "count": 3}, 
-      {"name": "legobatman", "count": 4}, 
-      {"name": "tablelamp1", "count": 5}, 
-      {"name": "ipad_air", "count": 6}]);
+      {"name": "ipad_air", "count": 3}]);
     setNewOtherModels([]);
     setMainTable("desk3");
     setTableBuffer(deskmodels["desk3"].y_buffer);
