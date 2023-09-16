@@ -6,7 +6,7 @@ import PrimaryModel from '@/components/PrimaryModel';
 import secondarymodels from '_data/modelcoord.json';
 import deskmodels from '_data/deskcoord.json';
 
-const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tablebuffer, removeModel, removeOtherModel}) => {
+const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tablebuffer, removeModel, removeOtherModel, focusOfView}) => {
     const [orbitControlFlag, setOrbitControlFlag] = useState(true);
     const [trackSelectedModels, setTrackSelectedModels] = useState(0);
 
@@ -29,7 +29,7 @@ const Design2 = ({maintable, othermodels, newOtherModels, cameraposition, tableb
     }
 
     return(
-        <Canvas dpr={[1, 2]} shadows camera={{fov: 75, position: cameraposition}} style={{position: "absolute"}}>
+        <Canvas dpr={[1, 2]} shadows camera={{fov: focusOfView, position: cameraposition}} style={{position: "absolute"}}>
             <ambientLight intensity={2} />
             <color attach="background" args={["black"]} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1}/>

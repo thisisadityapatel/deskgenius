@@ -11,10 +11,11 @@ import { isMobile } from 'react-device-detect';
 const assemble = () => {
   const [maintable, setMainTable] = useState("desk3");
   const [othermodels, setSecondaryModel] = useState([{"name": "keyboard2", "count": 0}, {"name": "monitor4", "count": 1}, {"name": "mouse2", "count": 2}, {"name": "ipad_air", "count": 3}]);
-  const [cameraposition, setCamera] = useState([0, 2.9, 4.6]);
+  const [cameraposition, setCamera] = useState([0, 3, 4]);
   const [tablebuffer, setTableBuffer] = useState(deskmodels[maintable].y_buffer);
   const [newOtherModels, setNewOtherModels] = useState([]);
   const [keepModelCount, setModelCount] = useState(7);
+  const [focusOfView, setFocusOfView] = useState(75);
 
   const changeTable = (event, newTable) => {
     event.preventDefault();
@@ -49,6 +50,11 @@ const assemble = () => {
     setCamera([0, 2.9, 4.6]);
   }
 
+  const handleFocusOfView = (event) => {
+    setFocusOfView(event.target.value);
+    console.log(event.target.value);
+  }
+
   return (
     <div>
       <nav className="backdrop-filter backdrop-blur-lg bg-opacity-90 fixed w-full z-20 top-0 left-0 border-b border-gray-800 dark:border-gray-800">
@@ -77,7 +83,7 @@ const assemble = () => {
               </div>
           </div>
       </nav>
-      <Design2 maintable={maintable} othermodels={othermodels} newOtherModels={newOtherModels} cameraposition={cameraposition} tablebuffer={tablebuffer} removeModel={removeModel} removeOtherModel={removeOtherModel}/>
+      <Design2 maintable={maintable} othermodels={othermodels} newOtherModels={newOtherModels} cameraposition={cameraposition} tablebuffer={tablebuffer} removeModel={removeModel} removeOtherModel={removeOtherModel} focusOfView={focusOfView}/>
       <div className={"absoluteSideMenu my-20 m-8 " + (isMobile?"hidden":"")}>
         <div>
           <div id="accordion-collapse" data-accordion="collapse">
