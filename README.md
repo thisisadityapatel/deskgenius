@@ -4,7 +4,7 @@ DeskGenius is a web application that utilizes 3D rendering technology to help yo
 
 <p align="center" style="border: 5px solid white">
   <kbd>
-    <img src="./public/images/deskgeniusrecord.gif" alt="Alt Text" width="700">
+    <img src="./public/images/deskgeniusrecord.gif" alt="Alt Text" width="900">
   </kbd>
 </p>
 
