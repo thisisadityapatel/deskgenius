@@ -31,8 +31,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="text-center text-gray-500" style={{marginTop: '7rem'}}>
-        <span style={{fontSize: "130%"}} className="wave mx-1">🎃</span> Designed & Developed by Aditya Patel © 2023
+        <div className="text-center text-gray-500 text-sm" style={{marginTop: '7rem'}}>
+        <span style={{fontSize: "130%"}} className="wave mx-1">⚙️</span><span className='italic'>Developed by Aditya Patel © 2023</span>
         </div>
       </div>
       <div className="indexSellingStyle py-48" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
