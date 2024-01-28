@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 import * as Icon from 'react-bootstrap-icons';
 
 export default function Home() {
+  const copyRightsYear = new Date().getFullYear()
   return (
     <div>
       <Header />
@@ -32,7 +33,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center text-gray-500 text-sm" style={{marginTop: '7rem'}}>
-        <span style={{fontSize: "130%"}} className="wave mx-1">⚙️</span><span className='italic'>Developed by Aditya Patel © 2023</span>
+        <span style={{fontSize: "130%"}} className="wave mx-1">⚙️</span><span className='normal'>Developed by <span style={{textDecoration: "underline"}}><a href="https://www.linkedin.com/in/thisisadityapatel/" target='_blank'>Aditya Patel</a></span> © {copyRightsYear} All Rights Reserved.</span>
         </div>
       </div>
       <div className="indexSellingStyle py-48" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
