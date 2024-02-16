@@ -10,7 +10,7 @@ DeskGenius is a web application that utilizes 3D rendering technology to help yo
 
 ## Key Features
 
--   **3D Rendering**: DeskGenius leverages the capabilities of Three Fiber (Three.js) to create realistic 3D models of various desk components, allowing you to visualize your desired table arrangements from different angles.
+-   **3D Rendering**: DeskGenius leverages the capabilities of Three Fiber (Three.js) to create realistic 3D models of various desk components. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance reducing computational overhead, resulting in a highly responsive UI and immersive user experience.
     
 -   **Real-Time Preview**: Instantly see the changes you make to your desk arrangement, providing immediate feedback and facilitating quick decision-making.
     
