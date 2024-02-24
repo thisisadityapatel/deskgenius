@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="marginauto md:w-5/6 lg:w-4/6">
           <div className="text-center tracking-widest font-normal text-gray-500 md:text-lg dark:text-gray-400 my-8">
-              Are you tired of the guesswork when it comes to your deskto setup? Look no further! Use our powerful 3D rendering technology for visualizing desktop arrangements before purchasing.
+              Are you tired of the guesswork when it comes to your desktop setup? Look no further! Use our powerful 3D rendering technology for visualizing desktop arrangements before purchasing.
           </div>
           <div className="text-center my-8 py-4">
             <Link type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-40" href="/credits">Learn More</Link>
