@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="marginauto md:w-5/6 lg:w-4/6">
           <div className="text-center tracking-widest font-normal text-gray-500 md:text-lg dark:text-gray-400 my-8">
-              Are you tired of the guesswork when it comes to your table arrangements? Look no further! Use our powerful 3D rendering technology for visualizing table arrangements before purchasing.
+              Are you tired of the guesswork when it comes to your deskto setup? Look no further! Use our powerful 3D rendering technology for visualizing desktop arrangements before purchasing.
           </div>
           <div className="text-center my-8 py-4">
             <Link type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-40" href="/credits">Learn More</Link>
@@ -40,7 +40,7 @@ export default function Home() {
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unleash your imagination, let's recreate it together!</h2>
-              <p className="mb-4">DeskSpacing is a platform that helps you design a visually appealing and practical desk setup. You can explore a wide range of objects and components to plan your layout before making any purchases. Our user-friendly interface allows you to customize your setup, experiment with different configurations, and optimize your desk space.</p>
+              <p className="mb-4">DeskSpacing is a platform that helps you design a visually appealing and practical desktop setup. You can explore a wide range of objects and components to plan your layout before making any purchases. Our user-friendly interface allows you to customize your setup, experiment with different configurations, and optimize your desk space.</p>
               <p> With DeskSpacing, you can save time, money, and create the ideal workspace.</p>
               <a href="./assemble" className="inline-flex items-center text-white font-medium rounded-lg px-5 py-2.5 text-center">
                   <span className="pr-2 hover-underline-animation" style={{color: "aqua"}}>Get started </span> <Icon.ArrowRight size={20}  className="wave"/>
