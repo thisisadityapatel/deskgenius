@@ -1,14 +1,14 @@
 # <img src="https://github.com/thisisadityapatel/deskgenius/blob/main/public/companyLogo/deskgeniusLogo.png" alt="Logo" width="30" height="30"> DeskGenius [@deskgenius.vercel.app](https://deskgenius.vercel.app/).
 
--- By Aditya 
+~ By <b>Aditya</b> 
 
-DeskGenius is a web application that utilizes 3D rendering technology to help you visualize table arrangements before making a purchase. Whether you're setting up a home office, workspace, or gaming station, DeskGenius allows you to explore different desk configurations in a virtual environment. By combining the power of Next.js and Three Fiber (Three.js), DeskGenius offers an interactive and immersive experience that saves you time, money, and energy in creating your dream setup.
+DeskGenius is a web app using 3D rendering to preview table layouts before buying. It's perfect for home offices, workspaces, or gaming setups. Powered by Next.js and Three Fiber, DeskGenius offers an interactive experience, saving time and money in designing your ideal space.
 
-<p align="center" style="border: 5px solid white; marginTop: 20px; marginBottom: 20px">
-  <kbd>
-    <img src="./public/images/deskgeniusrecord.gif" alt="Alt Text" width="100%">
-  </kbd>
-</p>
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+    <kbd style="display: inline-block;">
+        <img src="./public/images/deskgeniusrecord.gif" alt="Alt Text" style="max-width: 80%; height: auto;">
+    </kbd>
+</div>
 
 ## Key Features
 
@@ -28,7 +28,7 @@ DeskGenius is a web application that utilizes 3D rendering technology to help yo
 
 -  **TailwindCSS**: DeskGenius utilizes Tailwind CSS for stylish and responsive design, providing an intuitive and visually appealing experience as you create your perfect desk setup.
 
-## Install Locally
+## Installing Locally
 
 To get a local copy of DeskGenius up and running, follow these steps:
 
@@ -48,7 +48,7 @@ This project is licensed under the [MIT License](https://github.com/thisisaditya
 -   [Three Fiber](https://github.com/pmndrs/react-three-fiber)
 -   [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 -   [Vercel](https://vercel.com/)
--   [Unsplash](https://unsplash.com/) for the images used in the application.
+-   [Unsplash](https://unsplash.com/)
 
 ----------
 
