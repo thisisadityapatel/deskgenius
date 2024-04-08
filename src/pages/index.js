@@ -66,11 +66,11 @@ export default function Home() {
 
       <div className="indexSellingStyle py-60" style={{marginTop: "20rem", borderTop: "2px solid black"}}>
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          {/* <Image className="w-full hidden dark:block shadow" src="/images/testing.gif" alt="dashboard image" style={{borderRadius: "14p</video>x", border: "2px solid aqua"}} height={800} width={800} quality={100} priority={true}/> */}
-          <video controls ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
+          <Image className="w-full hidden dark:block shadow" src="/images/tableLayout.png" alt="dashboard image" style={{borderRadius: "14px", border: "2px solid aqua"}} height={800} width={800} quality={100} priority={true}/>
+          {/* <video controls ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
             <source src="https://onnjgghecx8f2iuc.public.blob.vercel-storage.com/introVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
           <div className="font-light text-gray-500 sm:text-sm dark:text-gray-400 mt-5">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Didn't reinvent the wheel, just <span className="animate-charcter">turbocharged</span> it!</h2>
               <p className="mb-4">DeskSpacing is a platform that helps you design a visually appealing and a practical desktop setup. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance and reduce computational overhead, resulting in a highly responsive UI.</p>
