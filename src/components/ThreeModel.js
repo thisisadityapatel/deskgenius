@@ -38,15 +38,15 @@ const ThreeModel = (props) => {
   useEventListener("keydown", (event) => {
     if(selected){
       switch (event.keyCode){
-        //x-z plane co-ordination
-        case 37:setCoordinates([coordinates[0]-0.02, coordinates[1], coordinates[2]]);break;
-        case 39:setCoordinates([coordinates[0]+0.02, coordinates[1], coordinates[2]]);break;
-        case 38:setCoordinates([coordinates[0], coordinates[1], coordinates[2]-0.02]);break;
-        case 40:setCoordinates([coordinates[0], coordinates[1], coordinates[2]+0.02]);break;
+        // //x-z plane co-ordination
+        // case 37:setCoordinates([coordinates[0]-0.02, coordinates[1], coordinates[2]]);break;
+        // case 39:setCoordinates([coordinates[0]+0.02, coordinates[1], coordinates[2]]);break;
+        // case 38:setCoordinates([coordinates[0], coordinates[1], coordinates[2]-0.02]);break;
+        // case 40:setCoordinates([coordinates[0], coordinates[1], coordinates[2]+0.02]);break;
 
-        // y-axis  co-ordination
-        case 87:setCoordinates([coordinates[0], coordinates[1]+0.02, coordinates[2]]);break;
-        case 83:setCoordinates([coordinates[0], coordinates[1]-0.02, coordinates[2]]); break;
+        // // y-axis  co-ordination
+        // case 87:setCoordinates([coordinates[0], coordinates[1]+0.02, coordinates[2]]);break;
+        // case 83:setCoordinates([coordinates[0], coordinates[1]-0.02, coordinates[2]]); break;
 
         //rotation co-ordination
         case 65:setRotation([rotation[0], rotation[1]-Math.PI/12, rotation[2]]); break;

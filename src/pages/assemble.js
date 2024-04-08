@@ -52,7 +52,6 @@ const assemble = () => {
 
   const handleFocusOfView = (event) => {
     setFocusOfView(event.target.value);
-    console.log(event.target.value);
   }
 
   return (
@@ -209,7 +208,7 @@ const assemble = () => {
               <div className="flex items-center justify-between p-5 border-b rounded-t dark:border-gray-600">
                 {isMobile?<>
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">
-                    Apologies 🙇
+                    Apologies 🦁
                   </h3>
                 </>:<><h3 className="text-xl font-medium text-gray-900 dark:text-white">
                     Quick Tutorial
@@ -230,27 +229,27 @@ const assemble = () => {
                 </div></>:<>
                 <div className="p-6 space-y-6">
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p className="text-1xl text-white">Select Model</p>
+                    <p className="text-1xl text-gray-400 flex justify-left">
+                      Click on the model to select.
+                    </p>
+                  </div>
+                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Change Camera Position</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
-                      Click & slide using two fingers to the change camera position
+                      Click & slide using left mouse click to the change camera position
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Rotate Camera Position</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
-                      Click & slide using one fingers to the rotate camera position
+                      Click & slide using right mouse click to the rotate camera position
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Zoom In & Out</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
-                      Slide <span className="font-black text-gray-900 text-white px-1">UP</span> using two fingers to zoom out and <span className="font-black text-gray-900 text-white px-1">DOWN</span> to zoom in
-                    </p>
-                  </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <p className="text-1xl text-white">Select Model</p>
-                    <p className="text-1xl text-gray-400 flex justify-left">
-                      Click on the model to select.
+                      <span className="font-black text-gray-900 text-white px-1">Scroll Out</span> to zoom out and <span className="font-black text-gray-900 text-white px-1">Scroll In</span> to zoom in
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -265,7 +264,7 @@ const assemble = () => {
                       Remove model from canvas using <span className="font-black text-gray-900 text-white px-1">X</span> key
                     </p>
                   </div>
-                  <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  {/* <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Precision Position Movements</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
                       x-axis movements: ➡ and ⬅ keys
@@ -276,7 +275,7 @@ const assemble = () => {
                     <p className="text-1xl text-gray-400 flex justify-left">
                       y-axis movements: <span className="font-black text-gray-900 text-white px-1">W</span> and <span className="font-black text-gray-900 text-white px-1">S</span> keys
                     </p>
-                  </div>
+                  </div> */}
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Reset Room</p>
                     <p className="text-1xl text-gray-400">
