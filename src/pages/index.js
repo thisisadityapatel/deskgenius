@@ -75,7 +75,7 @@ export default function Home() {
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Didn't reinvent the wheel, just <span className="animate-charcter">turbocharged</span> it!</h2>
               <p className="mb-4">DeskSpacing is a platform that helps you design a visually appealing and a practical desktop setup. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance and reduce computational overhead, resulting in a highly responsive UI.</p>
               <br/>
-              <p> With DeskSpacing save your time, money and energy, all from the confort of your home.</p>
+              <p> With DeskSpacing save your time, money and energy, all from the comfort of your home.</p>
               <a href="./assemble" className="inline-flex items-center text-white font-medium rounded-lg py-2.5 text-center">
                   <span className="hover-underline-animation mr-2" style={{color: "white"}}>Get started for Free </span> <Icon.ArrowRight size={20}  className="wave" style={{color: "aqua"}}/>
               </a>
@@ -85,7 +85,7 @@ export default function Home() {
       <div className="bg-white dark:bg-gray-900 py-48" style={{ borderTop: "2px solid black"}}>
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-sm dark:text-gray-400">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unleash your <span className="animate-charcter">imagination</span>, let's recreate it together!</h2>
+              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unleash your imagination, let's recreate it together!</h2>
               <p className="mb-6 font-light text-gray-500 md:text-sm dark:text-gray-400">You can explore a wide range of objects and components to plan your layout before making any purchases. The user-friendly interface allows you to customize your setup, experiment with different configurations, and optimize your desk space.</p>
               <p className="mb-6 font-light text-gray-500 md:text-sm dark:text-gray-400">The arsenal comprises of models from leading industry giants, empowering you with enhanced comprehension of your desktop arrangements and dimensions.</p>
               <p className="mb-6 font-light text-gray-500 md:text-sm dark:text-gray-400">Some of the technologies used for engineering this project were:</p>
