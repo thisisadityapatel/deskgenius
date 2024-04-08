@@ -68,7 +68,7 @@ export default function Home() {
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           {/* <Image className="w-full hidden dark:block shadow" src="/images/testing.gif" alt="dashboard image" style={{borderRadius: "14p</video>x", border: "2px solid aqua"}} height={800} width={800} quality={100} priority={true}/> */}
           <video controls ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
-            <source src="/videos/introVideo.mp4" type="video/mp4" />
+            <source src="https://onnjgghecx8f2iuc.public.blob.vercel-storage.com/introVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="font-light text-gray-500 sm:text-sm dark:text-gray-400 mt-5">
