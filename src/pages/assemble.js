@@ -237,13 +237,13 @@ const assemble = () => {
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Change Camera Position</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
-                      Click & slide using left mouse click to the change camera position
+                      Click & slide using right mouse click to rotate the camera position
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     <p className="text-1xl text-white">Rotate Camera Position</p>
                     <p className="text-1xl text-gray-400 flex justify-left">
-                      Click & slide using right mouse click to the rotate camera position
+                      Click & slide using left mouse click to change the camera position
                     </p>
                   </div>
                   <div className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
