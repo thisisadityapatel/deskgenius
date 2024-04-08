@@ -26,7 +26,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow Up</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow me @</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
                             <li className="mb-4">
                                 <Link href="https://github.com/thisisadityapatel/deskgenius" target="_blank" className="hover-underline-animation">Github</Link>

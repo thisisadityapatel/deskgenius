@@ -15,14 +15,13 @@ const credits = () => {
 
             <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
 
-            <div className="mb-6">
+            <div className="mb-6 text-md">
               <div className="my-6 text-gray-500 dark:text-gray-400">
-                I had a great time exploring the realm of three.js and diving headfirst into building small prototypes for something like this.
-                My main goal was getting some hands on engineeing experience with <Link href="https://nextjs.org/" target='_blank' className="font-semibold text-gray-900 underline dark:text-white decoration-blue-500">NextJS</Link> and React. 
+                I had a great time exploring the three.js and diving headfirst into building small prototypes for something like this.
+                My main goal was getting some hands on engineeing experience with <Link href="https://nextjs.org/" target='_blank' className="font-semibold text-gray-900 underline dark:text-white decoration-blue-500">NextJS</Link>. 
                 I snagged some awesome 3D models from <Link href="https://sketchfab.com/" target='_blank' className="font-semibold text-gray-900 underline dark:text-white decoration-blue-500">Sketchfab.com</Link> to prototype this application, 
                 they were so cool that I decided to keep them. I might even whip up some more 3D models myself using <Link href="https://www.blender.org/" target='_blank' className="font-semibold text-gray-900 underline dark:text-white decoration-blue-500">Blender</Link>, that is, if I don't get sidetracked by another project.
               </div>
-
               <div className="mb-8 text-gray-500 dark:text-gray-400">
                 Right now, this project is up and running smoothly on <Link href="https://vercel.com/docs" target='_blank' className="font-semibold text-gray-900 underline dark:text-white decoration-blue-500">Vercel.com</Link>. The whole deployment process was a breeze. I mean, 
                 I could have gone through dockerizing it and deploying it elsewhere, but was just feeling a bit lazy.
