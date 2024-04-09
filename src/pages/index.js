@@ -71,8 +71,8 @@ export default function Home() {
             <source src="https://onnjgghecx8f2iuc.public.blob.vercel-storage.com/introVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
-          <video controls ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
-            <source src="https://github.com/thisisadityapatel/deskgenius/assets/79132756/67503be7-3527-4093-b8d7-9997c82d9439" type="video/mp4" />
+          <video controls controlsList="nodownload noremoteplayback" disablePictureInPicture={true} ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
+            <source src="https://github.com/thisisadityapatel/deskgenius/assets/79132756/4a6a2e8f-76e0-4838-83c7-9292f982fbb7" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="font-light text-gray-500 sm:text-sm dark:text-gray-400 mt-5">
