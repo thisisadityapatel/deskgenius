@@ -71,7 +71,7 @@ export default function Home() {
             <source src="https://onnjgghecx8f2iuc.public.blob.vercel-storage.com/introVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
-          <video controls controlsList="nodownload noremoteplayback" disablePictureInPicture={true} ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
+          <video disablePictureInPicture={true} ref={videoRef} autoPlay={true} muted={true} loop width="640" height="360" style={{borderRadius: "14px", border: "2px solid aqua"}}>
             <source src="https://github.com/thisisadityapatel/deskgenius/assets/79132756/4a6a2e8f-76e0-4838-83c7-9292f982fbb7" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
