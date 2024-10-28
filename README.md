@@ -27,7 +27,7 @@ DeskGenius is a 3D rendering platform to preview desktop setups before buying. I
 
 - **Diverse Model Selection**: Offers a comprehensive range of desk models with regular additions.
 
-## Technologies Used
+## Tech Stack
 
 - **Next.js**: Built with Next.js, leveraging server-side rendering, efficient routing, and enhanced performance.
 
