@@ -1,55 +1,72 @@
-# <img src="https://github.com/thisisadityapatel/deskgenius/blob/main/public/companyLogo/deskgeniusLogo.png" alt="Logo" width="30" height="30"> DeskGenius [@deskgenius.vercel.app](https://deskgenius.vercel.app/).
+<p align="center">
+  <img src="https://github.com/thisisadityapatel/deskgenius/blob/main/public/companyLogo/deskgeniusLogo.png" alt="Logo" width="100" height="100">
+  <h1 align="center">DeskGenius</h1>
 
-~ By <b>Aditya</b> 
+  <p align="center">
+    A 3D rendering platform for visualizing next desktop setup.
+    <br />
+    <a href="https://deskgenius.vercel.app/"><strong>Try It Out</strong></a>
+  </p>
+</p>
 
-DeskGenius is a 3D rendering web application to preview desktop setups before buying. It's perfect for home offices, workspaces, or gaming setups. Powered by Three.js and Next.js, DeskGenius offers an interactive experience, saving time and money in designing your ideal productive space.
+## About The Project
+
+DeskGenius is a 3D rendering platform to preview desktop setups before buying. It's perfect for home offices, workspaces, or gaming setups. Powered by Three.js and Next.js, DeskGenius offers an interactive experience, saving time and money in designing your ideal productive space.
 
 https://github.com/thisisadityapatel/deskgenius/assets/79132756/4a6a2e8f-76e0-4838-83c7-9292f982fbb7
 
 ## Key Features
 
--   **3D Rendering**: DeskGenius leverages the capabilities of Three Fiber (Three.js) to create realistic 3D models of various desk components. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance reducing computational overhead, resulting in a highly responsive UI and immersive user experience.
-    
--   **Real-Time Preview**: Instantly see the changes you make to your desk arrangement, providing immediate feedback and facilitating quick decision-making.
-    
--   **Multiple Models**: Wide selection of desk models to choose from, with new additions constantly being incorporated to provide endless conbinations for your ideal setup.
+- **3D Rendering**: DeskGenius utilizes Three Fiber (Three.js) to construct render 3D models of various desk components, implementing ray tracing, texture mapping, and advanced rendering algorithms. This optimizes computational efficiency and delivers a responsive, immersive UI experience.
+
+- **Real-Time Preview**: Instantly reflects desk arrangement changes, enabling immediate visual feedback for quick decision-making.
+
+- **Diverse Model Selection**: Offers a comprehensive range of desk models with regular additions.
 
 ## Technologies Used
 
--   **Next.js**: The project is built on Next.js, a React framework that provides server-side rendering, easy routing, and optimized performance.
-    
--   **Three Fiber (Three.js)**: Three Fiber is a React renderer for Three.js, allowing the creation of interactive and visually stunning 3D scenes in a web environment.
+- **Next.js**: Built with Next.js, leveraging server-side rendering, efficient routing, and enhanced performance.
 
-- **drei (Three.js Library)** : drei is a collection of useful helpers and fully functional abstractions for [@react-three/fiber](https://github.com/pmndrs/react-three-fiber).
+- **Three Fiber (Three.js)**: Uses Three Fiber, a React renderer for Three.js, enabling interactive and complex 3D scenes.
 
--  **TailwindCSS**: DeskGenius utilizes Tailwind CSS for stylish and responsive design, providing an intuitive and visually appealing experience as you create your perfect desk setup.
+- **drei**: Incorporates drei, a library of utilities and abstractions for @react-three/fiber, streamlining 3D development.
+
+- **TailwindCSS**: Styled with Tailwind CSS for responsive and visually cohesive design, enhancing the customization experience.
 
 ## Running Locally
 
-To setup this project locally, follow these commands:
+To set up the project locally, execute the following commands:
 
-Clone this repository.
-```shell
-git clone https://github.com/thisisadityapatel/deskgenius.git
-```
-Navigate to the project directory.
-```shell
-cd deskgenius
-```
-Install the dependencies.
-```shell
-yarn install
-```
-Start the development server.
-```shell
-yarn dev
-```
-The project is now running locally on http://localhost:3000
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thisisadityapatel/deskgenius.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd deskgenius
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   yarn dev
+   ```
+
+The project will be available at `http://localhost:3000`.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/thisisadityapatel/deskgenius/blob/main/LICENSE).
+This project is licensed under the MIT License.
 
 ## Acknowledgements
-[Next.js](https://nextjs.org/), [Three Fiber](https://github.com/pmndrs/react-three-fiber), [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene), [Vercel](https://vercel.com/), [Unsplash](https://unsplash.com/)
 
+Next.js, Three Fiber, Three.js, Vercel, Unsplash
