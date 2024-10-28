@@ -13,7 +13,11 @@
 
 DeskGenius is a 3D rendering platform to preview desktop setups before buying. It's perfect for home offices, workspaces, or gaming setups. Powered by Three.js and Next.js, DeskGenius offers an interactive experience, saving time and money in designing your ideal productive space.
 
-https://github.com/thisisadityapatel/deskgenius/assets/79132756/4a6a2e8f-76e0-4838-83c7-9292f982fbb7
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/75c6b9b7-5cc0-4d56-8c68-c6c3c1fa2c67">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## Key Features
 
