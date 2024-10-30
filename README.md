@@ -3,7 +3,7 @@
   <h1 align="center">DeskGenius</h1>
 
   <p align="center">
-    A 3D rendering platform for visualizing next desktop setup.
+    A 3D rendering platform for visualizing your next desktop setup.
     <br />
     <a href="https://deskgenius.vercel.app/"><strong>Try It Out</strong></a>
   </p>
