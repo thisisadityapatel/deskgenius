@@ -77,9 +77,9 @@ export default function Home() {
           </video>
           <div className="font-light text-gray-500 sm:text-sm dark:text-gray-400 mt-5">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Didn't reinvent the wheel, just <span className="animate-charcter">turbocharged</span> it!</h2>
-              <p className="mb-4">DeskSpacing is a platform that helps you design a visually appealing and a practical desktop setup. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance and reduce computational overhead, resulting in a highly responsive UI.</p>
+              <p className="mb-4">DeskGenius is a platform that helps you design a visually appealing and a practical desktop setup. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance and reduce computational overhead, resulting in a highly responsive UI.</p>
               <br/>
-              <p> With DeskSpacing save your time, money and energy, all from the comfort of your home.</p>
+              <p> With DeskGenius save your time, money and energy, all from the comfort of your home.</p>
               <a href="./assemble" className="inline-flex items-center text-white font-medium rounded-lg py-2.5 text-center">
                   <span className="hover-underline-animation mr-2" style={{color: "white"}}>Get started for Free </span> <Icon.ArrowRight size={20}  className="wave" style={{color: "aqua"}}/>
               </a>
