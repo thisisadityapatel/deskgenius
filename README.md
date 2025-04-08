@@ -75,4 +75,4 @@ This project is licensed under the MIT License.
 
 Next.js, Three Fiber, Three.js, Vercel, Unsplash
 
-![Badge](https://hits.donaldzou.dev/api/hit?url=https%3A%2F%2Fdeskgenius.vercel.app%2F&label=Counter&icon=clouds-fill&color=%233d8bfd)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fdeskgenius.vercel.app%2F&label=Counter&icon=clouds-fill&color=%233d8bfd)
