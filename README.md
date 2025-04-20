@@ -19,27 +19,9 @@ DeskGenius is a 3D rendering platform to preview desktop setups before buying. I
   </video>
 </div>
 
-## Key Features
+## Run Locally
 
-- **3D Rendering**: DeskGenius utilizes Three Fiber (Three.js) to render 3D models of various desk components, implementing ray tracing, texture mapping, and advanced rendering algorithms. This optimizes computational efficiency and delivers a responsive, immersive UI experience.
-
-- **Real-Time Preview**: Instantly reflects desk arrangement changes, enabling immediate visual feedback for quick decision-making.
-
-- **Diverse Model Selection**: Offers a comprehensive range of desk models with regular additions.
-
-## Tech Stack
-
-- **Next.js**: Built with Next.js, leveraging server-side rendering, efficient routing, and enhanced performance.
-
-- **Three Fiber (Three.js)**: Uses Three Fiber, a React renderer for Three.js, enabling interactive and complex 3D scenes.
-
-- **drei**: Incorporates drei, a library of utilities and abstractions for @react-three/fiber, streamlining 3D development.
-
-- **TailwindCSS**: Styled with Tailwind CSS for responsive and visually cohesive design, enhancing the customization experience.
-
-## Running Locally
-
-To set up the project locally, execute the following commands:
+To set up the project locally, follow the commands:
 
 1. Clone the repository:
 
