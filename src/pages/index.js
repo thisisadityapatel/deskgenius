@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center text-gray-500 text-sm" style={{marginTop: '7rem'}}>
-        <span style={{fontSize: "130%"}} className="wave mx-1">⚙️</span><span className='normal'>Developed by <span style={{textDecoration: "underline"}}><a href="https://www.linkedin.com/in/thisisadityapatel/" target='_blank'>Aditya Patel</a></span> © {copyRightsYear} All Rights Reserved.</span>
+        <span style={{fontSize: "130%"}} className="wave mx-1">⚙️</span><span className='normal'>Copyright © {copyRightsYear} <span style={{textDecoration: "underline"}}><a href="https://www.linkedin.com/in/thisisadityapatel/" target='_blank'>Aditya Patel</a></span></span>
         </div>
       </div>
 
